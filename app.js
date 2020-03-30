@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser());
 
-const PORT = 4001;
+const PORT = process.env.PORT || 4001;
 app.use(express.static('public'));
 
 //Nodemailer
