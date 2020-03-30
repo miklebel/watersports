@@ -58,6 +58,7 @@ document.getElementsByName("date")[0].setAttribute('min', today);
 
     const success = () => {
         $('.form').css('display', 'none');
+        $('.success').css('display', 'block');
         $('.preloader').fadeOut();
     }
     
@@ -66,6 +67,7 @@ document.getElementsByName("date")[0].setAttribute('min', today);
         console.log('formdata', formdata);
         // showing animation until recieving positive status code from ajax request
         $('.preloader').fadeIn();
+        
         // and sending post request, on positive code fading out preloader animation
         $.post("http://cretamariswatersports.herokuapp.com/api", formdata, success());
     } else {
