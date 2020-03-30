@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/animate.css">
+    </head>
+    <body>
+        
+        <div>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName">
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <label for="email">Please leave your email for contact</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <p>What kind of activities wold you like to try?</p>
+        
+        <label for="jetSki">Jet Ski</label>
+        <input type="checkbox" name="jetSki" id="jetSki">
+        <div class="hiddenJetSki hideOptions">
+            <label for="jetSki">How many?</label>
+            <input type="number" name="jetSki" id="jetSkiAmount" min="1" max="20" value="1"> 
+            <p>You can take only up to 3 Jet Ski at the same time. Jet Ski takes up to 2 persons on-board.</p>
+        </div>
+        
+
+        <label for="kayak">Kayak</label>
+        <input type="checkbox" name="kayak" id="kayak">
+        <div class="hiddenKayak hideOptions">
+            <label for="kayak">How many?</label>
+            <input type="number" name="kayak" id="kayakAmount" min="1" max="20" value="1">
+            <p>You can take up to 4 kayaks with maximum capacity of 2 persons at the same time.</p>
+        </div>
+
+        <label for="sup">SUP</label>
+        <input type="checkbox" name="sup" id="sup">
+        <div class="hiddenSup hideOptions">
+            <label for="sup">How many?</label>
+            <input type="number" name="sup" id="supAmount" min="1" max="20" value="1">
+            <p>You can take only up to 4 SUPs at the same time. Only one person can stay on each SUP.</p>
+        </div>
+        
+
+        <label for="pedalo">Pedalo</label>
+        <input type="checkbox" name="pedalo" id="pedalo">
+        <div  class="hiddenPedalo hideOptions">
+            <label for="pedalo">How many?</label>
+            <input type="number" name="pedalo" id="pedaloAmount" min="1" max="20" value="1">
+            <p>You can take only up to 4 pedalos with maximum capacity of 4 persons at the same time.</p>
+        </div>
+
+        <label for="flyboard">Flyboard</label>
+        <input type="checkbox" name="flyboard" id="flyboard">
+        <div class="hiddenFlyboard hideOptions">
+            <label for="flyboard">How many?</label>
+            <input type="number" name="flyboard" id="flyboardAmount" min="1" max="20" value="1">
+            <p>You can take only one Flyboard at the time.</p>
+        </div>
+        
+
+        <label for="date">Please select date</label>
+        <input type="date" name="date" id="date">
+        
+        <label for="time">Please select time from 10:00 till 18:00</label>
+        <input type="time" name="time" id="time" value="10:00:00.00" step="900">
+        
+        <label for="suggestions">You add here your suggestions</label>
+        <input type="text" name="suggestions" id="suggestions">
+
+        <input type="submit" value="Submit" id="submit">
+        
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+        <script src="../public/jquery.waypoints.min.js"></script>
+        <script src="./form.js"></script>
+        
+    </body>
+</html>
