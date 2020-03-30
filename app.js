@@ -53,7 +53,7 @@ return (`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://
 
                         <p style="margin: 20px 0;">
                           Creta Maris Watersports Team<br />
-                          <a href="https://creatamariswatersports.website" style="color: #6E5BAA;">https://creatamariswatersports.website</a>
+                          <a href="http://cretamariswatersports.herokuapp.com/" style="color: #6E5BAA;">http://cretamariswatersports.herokuapp.com/</a>
                         </p>
                       </td>
                     </tr>
@@ -66,11 +66,11 @@ return (`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://
                       <tr style="vertical-align: top; padding: 0;">
                         <td valign="top" style="vertical-align: top; text-align: left; padding: 0;" align="left">
                           <p style="margin: 20px 0;">
-                            Creta Maris Watersports Team is the most powerful team in the world and mr. Tolis is one of the most influential persons in my life.
+                            Creta Maris Watersports Team is the most powerful team in the world.
                           </p>
 
                           <p style="margin: 20px 0;">
-                            To learn more about Creta Maris Watersports and all its features, check out website: <a href="https://creatamariswatersports.website" style="color: #666666;">https://creatamariswatersports.website</a>
+                            To learn more about Creta Maris Watersports and all its features, check out website: <a href="http://cretamariswatersports.herokuapp.com/" style="color: #666666;">http://cretamariswatersports.herokuapp.com/</a>
                           </p>
                         </td>
                       </tr>
