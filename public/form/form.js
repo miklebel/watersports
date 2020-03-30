@@ -55,12 +55,19 @@ document.getElementsByName("date")[0].setAttribute('min', today);
     // client second name,
     // date,
     // email
+
+    const success = () => {
+        $('.form').css('display', 'none');
+        $('.preloader').fadeOut();
+    }
     
     if ((formdata.jCheckbox || formdata.kCheckbox || formdata.sCheckbox || formdata.pCheckbox || formdata.fCheckbox) && formdata.date && formdata.email && formdata.fName && formdata.lName) {
         // if everything filled properly logging object with filled properties
         console.log('formdata', formdata);
-        // and sending post request
-        $.post("http://192.168.1.5:4001/api", formdata);
+        // showing animation until recieving positive status code from ajax request
+        $('.preloader').fadeIn();
+        // and sending post request, on positive code fading out preloader animation
+        $.post("http://cretamariswatersports.herokuapp.com/api", formdata, success());
     } else {
         // if not sending alert to check the form again
         alert('Please check if everything is filled in this form: at least one activity, your first name, your second name, date of booking and your contact email.')

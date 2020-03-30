@@ -179,10 +179,11 @@ app.post('/api', (req, res, next) => {
   console.log('Starting making a booking.')
   transporter.sendMail(mailOptionsForClient(req.body.email, messageForClient(req.body.fName, req.body.lName, req.body.date, req.body.time, items(req.body))), (err, data) => {
     if (err) {
+        res.sendStatus(400)
         console.log(err)
     } else {
         console.log('Booking made');
-        res.status(200).send('booking made')
+        res.status(200).send('booking made');
     }
 })
 })

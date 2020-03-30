@@ -6,17 +6,29 @@
         href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./animate.css">
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="./jquery.waypoints.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./preloader.css">
+<script src="./animationcopy.js"></script>
+
+<script src="./form/form.js"></script>
 
 
 
 </head>
 
 <body>
-    
+    <div class="preloader">
+        <div class="lds-roller">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
+    </div>
     <header>
         <h1 class="topButton">Creta Maris Watersports</h1>
         <div class="hamburger">
@@ -242,6 +254,11 @@
             </div>
             <div><input class="submit" type="submit" value="Book now" id="submit"></div>
         </div>
+        <div class="success">
+            <h1>Thank you for booking with us</h1>
+            <p>We sent you email on address that you typed in form. If you can't see it check spam folder.</p>
+            <p>Enjoy.</p>
+        </div>
 
     </div>
     <footer>
@@ -251,12 +268,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-<script src="./jquery.waypoints.min.js"></script>
-<script src="./animationcopy.js"></script>
-<script src="./form/form.js"></script>
-
+    
 
 </body>
 

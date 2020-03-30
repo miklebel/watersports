@@ -1,3 +1,7 @@
+$(window).on('load',(function() {
+    $('.preloader').fadeOut(400);
+    console.log('done')
+ }));
 
 
 $(document).ready(function () {
@@ -91,10 +95,11 @@ $(document).ready(function () {
     scrollTo('.bookButton', '.book');
     scrollTo('.topButton', '.top');
 
-
+    
 
 
 
 
 });
+
 
