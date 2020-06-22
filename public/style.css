@@ -276,6 +276,14 @@ box-shadow: 10px 10px 19px -1px rgba(0,0,0,0.75);
     background-color: rgba(0, 0, 0, 0);
 }
 
+.youtubeList{
+    width: 100vw;
+    height: 56.25vw;
+    padding: 10%;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
 .thirdList {
     background-image: url('./kayak.jpg');
     background-position: bottom;

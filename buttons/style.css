@@ -283,7 +283,7 @@ a.animated-button.gibson-four:after {
     background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
     background-size: 10px 10px;
     -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%));
+    -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }

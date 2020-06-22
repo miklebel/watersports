@@ -21,6 +21,7 @@ $(document).ready(function () {
     }
     animate('.topicTitle', 'fadeInLeft');
     animate('.topicSmallTitle', 'fadeInUp');
+    animate('.animate1', 'fadeIn');
     animate('.animate3', 'fadeIn');
     animate('.animate4', 'fadeIn');
     animate('.animate5', 'fadeIn');
